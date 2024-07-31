@@ -30,7 +30,7 @@ class MainPage:
         self._city = (By.NAME, 'city')
         self._country = (By.NAME, 'country')
         self._job_position = (By.NAME, 'job-position')
-        self._button = (By.NAME, 'button')
+        self._button = (By.TAG_NAME, 'button')
         self._company = (By.NAME, 'company')
 
     def filling_in_the_fields(self):

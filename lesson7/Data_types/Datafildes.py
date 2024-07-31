@@ -6,15 +6,15 @@ class DataFild:
         self.browser = browser
 
     def find_fields(self):
-        self.class_first_name = (By.ID, "first_name")
-        self.class_last_name = (By.ID, "last_name")
+        self.class_first_name = (By.ID, "first-name")
+        self.class_last_name = (By.ID, "last-name")
         self.class_address = (By.ID, "address")
         self.class_email = (By.ID, "email")
         self.class_phone = (By.ID, "phone")
-        self.class_zip_code = (By.ID, "zip_code")
+        self.class_zip_code = (By.ID, "zip-code")
         self.class_city = (By.ID, "city")
         self.class_country = (By.ID, "country")
-        self.class_jon_position = (By.ID, "job_position")
+        self.class_job_position= (By.ID, "job-position")
         self.class_company = (By.ID, "company")
 
     def get_class_first_name(self):
