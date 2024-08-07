@@ -1,6 +1,6 @@
 import requests
 import json
-from lesson8.constants import X_client_URL
+from constants import X_client_URL
 
 
 path = '/employee'
@@ -30,7 +30,7 @@ class Employer:
         company = {'company': company_id}
         response = requests.get(
             self.url + '/employee', params=company)
-        return response
+        return response.json()
 
     def add_new(self, token: str, body: json):
         headers = {'x-client-token': token}

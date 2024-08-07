@@ -1,6 +1,6 @@
 import pytest
 import requests
-from lesson8.constants import X_client_URL
+from constants import X_client_URL
 
 
 @pytest.fixture()
